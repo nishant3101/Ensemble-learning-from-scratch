@@ -1,0 +1,34 @@
+Steps to run the codes:
+
+1. For A5_2017171_Q1.py
+
+-> Type python "filename"
+-> Enter the path to the dataset (preferably should be in the same directory)
+-> Then simply follow the commands that comes in the output of the command line
+-> At "What do you want" question type either "Decision Tree" or "Bagged Decision Tree" or "Random Forest" (mind the capital first alphabet)
+-> Then type either "Classification" or "Regression"
+-> The enter the max_depth integer 
+-> if Bagged Decision Tree option was selected then enter the number of bagged trees and no. of samples for one bag.
+-> If Random Forest was selected then enter the no. of predictors in the How many random features question.
+-> Based on what you selected (either "Classification" or "Regression"): Result should come up 
+-> If Classification was selected then accuracy should be the result and if Regression was selected then mean sq. error, mean error and standard deviation of the error should be the output.
+
+A Sample procedure of giving the inputs correctly and recieving the outputs correctly in the command line should be like this
+
+"Enter the input path: dataset.csv
+Dataset read complete----------------
+Processing dataset-------------------
+Processing data complete-------------
+What do you want
+1. Decision Tree
+2. Bagged Decision Tree
+3. Random Forest
+Random Forest
+Classification or Regression ?
+Classification
+What max_depth of tree do you want: 2
+How many bagged trees: 2
+How many samples in one bag: 500
+How many random features: 3
+Accuracy of Bagged Decision Tree is:
+0.2464041095890411"
